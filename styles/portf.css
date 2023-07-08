@@ -7,7 +7,8 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    margin: 0 200px;
 }
 .nav-title {
     color: #181818;
@@ -34,4 +35,16 @@ color: #FFFFFF;
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30x 150px;
+    display: flex;
+    margin: 0px 200px;
+    align-items: center;
+}
+.bannner .pro-pic{
+    width: 500px;
 }
